@@ -4,6 +4,8 @@
   "description": "**Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
+    "build": "webpack --mode production",
     "test": "jest --coverage"
   },
   "repository": {
